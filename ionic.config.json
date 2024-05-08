@@ -1,0 +1,7 @@
+{
+  "name": "ws32",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
