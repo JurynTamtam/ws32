@@ -1,0 +1,47 @@
+ion-button{
+    text-transform: initial;
+}
+ion-button{
+    --background:#eff3f0;
+}
+ion-card {
+    margin: 10px;
+  }
+  
+  ion-img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  ion-toolbar{
+    padding: 10px;
+    --background:rgb(5, 5, 5);
+  }
+  ion-button {
+    margin-top: 10px;
+  }
+  ion-title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color:rgb(41, 14, 196);
+}
+.yel{
+  
+    color:rgb(235, 50, 127);
+}
+.co{
+    color:rgb(243, 242, 242);
+}
+.btn{
+    --background:#3017d3;
+    color: #faf8f8;
+    font-size: 14px;
+    padding-right: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btnview{
+    color:rgb(199, 6, 103);
+    font-size: 15px;
+}
+ion-content{
+  --background:black;
+}

@@ -1,0 +1,71 @@
+
+<ion-content [fullscreen]="true">
+  <div class="flex-center">
+    <ion-card class="card-size">
+      <ion-card-header class="hd1">
+        <ion-title>Scent <span class="yel">Sanctuary</span> <br><span class="reg"> Registration</span></ion-title>
+      </ion-card-header>
+      
+      <ion-card-header >
+        <ion-card-title>Login Information</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content class="scrollable-content">
+        <ion-item>
+          <ion-label position="floating">Name</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type="email" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Password</ion-label>
+          <ion-input type="password" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Confirm Password</ion-label>
+          <ion-input type="password" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Phone Number</ion-label>
+          <ion-input type="tel" required></ion-input>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+    </div>
+    
+    <div class="flex-center">
+      <ion-card class="card-size">
+      <ion-card-header>
+        <ion-card-title>Address Information</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">Address</ion-label>
+          <ion-input type="text" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Number</ion-label>
+          <ion-input type="tel" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Zip Code</ion-label>
+          <ion-input type="tel" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">State</ion-label>
+          <ion-input type="text" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">City</ion-label>
+          <ion-input type="text" required></ion-input>
+        </ion-item>
+      <ion-button class="btn1" type="submit" slot="start">Register</ion-button>
+      <ion-button class="btn2" (click)="close()" type="submit" slot="end">Close</ion-button>
+  </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
+

@@ -1,0 +1,59 @@
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .wide-card {
+    width: 70%; /* You can adjust this value as needed */
+    max-width: 350px; /* This sets a maximum width */
+    margin: 20px;
+  }
+  
+ion-button{
+    text-transform: initial;
+}
+ion-content{
+    --background:#eff3f0;
+}
+ion-card-header{
+    --background:#1e2520;
+
+    ion-card-title{
+    color: white;
+    }
+}
+.btn1{
+    color:#eff3f0;
+    --background:rgb(41, 14, 196);
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.btn2{
+    color:#eff3f0;
+    --background:rgb(235, 50, 127);
+    font-size: 16px;
+    font-weight: bold;
+}
+ion-card{
+    --background:#fbfbfc;
+}
+ion-item{
+    --background:#eff3f0;
+    color: black;
+
+    ion-input{
+     color: rgb(14, 161, 14);
+    }
+}
+ion-title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(41, 14, 196);
+}
+.yel{
+    color:rgb(235, 50, 127);
+}

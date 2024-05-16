@@ -1,0 +1,63 @@
+
+ion-content{
+    --background:white;
+}
+ion-toolbar{
+    --background:#f4f5f4;
+    color: black;
+    padding: 10px;
+}
+ion-button{
+    margin: 4px 5px;
+}
+ion-card-content{
+    --background:#17b417;
+   
+
+ion-item{
+    --background:#f4f5f4; 
+    color: black;
+}
+ion-input{
+    color: rgb(14, 161, 14);
+}
+.btn1{
+    color: #f4f5f4;
+    --background:#1916a3;
+    font-weight: bold;
+}
+.btn2{
+    color: #f4f5f4;
+    --background:#9e100b;
+    font-weight: bold;
+}
+}
+ion-card-title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #f2f2f7;
+}
+.hd1{
+    --background:rgb(3, 3, 3);
+}
+ion-title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color:rgb(41, 14, 196);
+    text-align: center;
+    
+}
+.yel{
+    color:rgb(235, 50, 127);
+}  
+.reg{
+    color:white;
+    font-size: 20px;
+}
+  .card-size {
+    --background:rgb(24, 18, 18);
+    width: 90%;    /* Adjust the width as needed */
+    max-width: 600px;  /* Maximum width */
+    height: auto;  /* Adjust the height as needed */
+    margin: 0%;  /* Adjust the margin as needed */
+  }

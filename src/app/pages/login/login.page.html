@@ -1,0 +1,27 @@
+<ion-content>
+  <div class="flex-center">
+    <ion-card class="wide-card">
+      <ion-card-header>
+        <ion-title>Scent <span class="yel">Sanctuary</span></ion-title>
+      </ion-card-header>
+
+      <form (ngSubmit)="login()">
+        <ion-card-content>
+          <ion-item>
+            <ion-label position="floating">Username</ion-label>
+            <ion-input type="text" [(ngModel)]="username" name="username" required></ion-input>
+          </ion-item>
+          
+          <ion-item>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input type="password" [(ngModel)]="password" name="password" required></ion-input>
+          </ion-item>
+
+          <ion-button color="" fill="clear" size="full">Forgot email/Password</ion-button>
+          <ion-button class="btn1" size="full" type="submit">Login</ion-button>
+          <ion-button class="btn2" size="full" (click)="register()">Register</ion-button>
+        </ion-card-content>
+      </form>
+    </ion-card>
+  </div>
+</ion-content>
